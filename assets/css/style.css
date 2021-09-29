@@ -8,15 +8,25 @@ h1,h2,h3{
     font-weight: bold;
 }
 
+a{
+    text-decoration: none;
+}
+
 p{
     color: #ffffff;
 }
 
 .about h1, 
-.featured h2 {
+.featured h2,
+.contact h2 {
     border-bottom: 1px solid #0dcaf0;
 }
 
 .featured .card .card-img-top {
     max-height: 200px;
 }
+
+footer h3{
+    text-transform: uppercase;
+}
+ 
