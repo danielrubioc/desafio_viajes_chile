@@ -12,6 +12,11 @@ p{
     color: #ffffff;
 }
 
-.about h1 {
+.about h1, 
+.featured h2 {
     border-bottom: 1px solid #0dcaf0;
+}
+
+.featured .card .card-img-top {
+    max-height: 200px;
 }
