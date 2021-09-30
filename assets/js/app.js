@@ -7,10 +7,6 @@ $( document ).ready(function() {
         } else {
             $("#navbar").removeClass("bg-info");
         }
-    });
-
-
-    $(".nav-link").click(function(event) {
-        console.log(event);
-    })
+    }); 
+    
 });
